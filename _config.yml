@@ -12,7 +12,7 @@ site_theme               : "default" # The available themes options are "default
 title                    : "Yuchen Yan"
 title_separator          : "-"
 name                     : &name "Yuchen Yan"
-description              : &description "Yuchen Yan (颜聿辰) — PhD student at Zhejiang University, working on LLM Reasoning and AI Agents."   # Update this with a general description of your site, this is the default if not overridden by a page
+description              : &description "Yuchen Yan (颜聿辰), PhD student at Zhejiang University, working on LLM Reasoning and AI Agents."   # Update this with a general description of your site, this is the default if not overridden by a page
 url                      : https://yanyc428.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -26,7 +26,7 @@ author:
   avatar           : "profile.png"
   name             : "颜聿辰 Yuchen Yan"
   pronouns         : # example: "she/her"
-  bio              : "PhD student in AI &middot; LLM Reasoning &amp; AI Agents"
+  bio              : "PhD student in AI<br>LLM Reasoning &amp; AI Agents"
   location         : "Beijing, China"
   employer         : "Zhejiang University"
   uri              : # URL
@@ -87,7 +87,9 @@ publication_category:
   conferences:
     title: 'Conference &amp; Journal Publications'
   preprints:
-    title: 'Preprints'
+    title: 'Preprints &amp; Technical Reports'
+  workshops:
+    title: 'Workshop Papers'
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previews
