@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "Bash(git ls-remote *)",
+      "Bash(echo \"exit=$?\")",
+      "Bash(cd /Users/yanyuchen/Downloads/yanyc428.github.io *)"
+    ]
+  }
+}
