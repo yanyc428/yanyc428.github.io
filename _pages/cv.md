@@ -26,7 +26,7 @@ Honors & Awards
 
 Internships
 ======
-* **Tencent, Hunyuan Foundation Model Team** (Qingyun Program), Apr 2026 to present
+* **Tencent, Hunyuan VLM Post-Training Team** (Qingyun Program), Apr 2026 to present
   * Vision post-training: SFT, OPD, and RL optimization
   * Subjective-task RL for Yuanbao user scenarios; SFT-RL post-training strategies
   * Multi-teacher distillation (OPD) for large-scale MoE models

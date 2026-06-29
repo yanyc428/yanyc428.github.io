@@ -7,7 +7,8 @@ excerpt: 'Xin Xu, Yan Xu, Tianhao Chen, <b>Yuchen Yan</b>, Chengwu Liu, Zaoyu Ch
 date: 2026-03-01
 venue: 'CPAL 2026 (Oral)'
 paperurl: 'https://openreview.net/forum?id=8PWIyOSSVP'
-citation: 'Xin Xu, Yan Xu, Tianhao Chen, <b>Yuchen Yan</b>, Chengwu Liu, Zaoyu Chen, Yufei Wang, Yichun Yin, Yasheng Wang, Qun Liu, Lu Yin. (2026). &quot;Teaching LLMs According to Their Aptitude: Adaptive Switching Between CoT and TIR for Mathematical Problem Solving.&quot; <i>CPAL 2026 (Oral)</i>.'
+tldr: 'Adaptively switches between chain-of-thought and tool-integrated reasoning based on problem difficulty.'
+authorship: other
 ---
 
 [OpenReview](https://openreview.net/forum?id=8PWIyOSSVP)

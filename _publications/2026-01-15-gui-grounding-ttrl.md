@@ -7,7 +7,8 @@ excerpt: 'Yong Du*, <b>Yuchen Yan</b>*, Fei Tang, Zhengxi Lu, Chang Zong, Weimin
 date: 2026-01-15
 venue: 'AAAI 2026'
 paperurl: 'https://openreview.net/forum?id=WHiAkFjwya'
-citation: 'Yong Du*, <b>Yuchen Yan</b>*, Fei Tang, Zhengxi Lu, Chang Zong, Weiming Lu, Shengpei Jiang, Yongliang Shen. (2026). &quot;Test-Time Reinforcement Learning for GUI Grounding via Region Consistency.&quot; <i>AAAI 2026</i>.'
+tldr: 'Improves GUI grounding at test time via label-free region-consistency reinforcement learning.'
+authorship: cofirst
 ---
 
 [OpenReview](https://openreview.net/forum?id=WHiAkFjwya)

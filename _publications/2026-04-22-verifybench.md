@@ -7,7 +7,8 @@ excerpt: '<b>Yuchen Yan</b>, Jin Jiang, Zhenbang Ren, Yijun Li, Xudong Cai, Yang
 date: 2026-04-22
 venue: 'ICLR 2026'
 paperurl: 'https://openreview.net/forum?id=JfsjGmuFxz'
-citation: '<b>Yuchen Yan</b>, Jin Jiang, Zhenbang Ren, Yijun Li, Xudong Cai, Yang Liu, Xin Xu, Mengdi Zhang, Jian Shao, Yongliang Shen, Jun Xiao, Yueting Zhuang. (2026). &quot;VerifyBench: Benchmarking Reference-based Reward Systems for Large Language Models.&quot; <i>ICLR 2026</i>.'
+tldr: 'A benchmark for evaluating reference-based reward systems that verify LLM answers.'
+authorship: first
 ---
 
 [OpenReview](https://openreview.net/forum?id=JfsjGmuFxz)

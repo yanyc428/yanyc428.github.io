@@ -7,7 +7,8 @@ excerpt: '<b>Yuchen Yan</b>, Yongliang Shen, Yang Liu, Jin Jiang, Xin Xu, Mengdi
 date: 2026-04-23
 venue: 'ICLR 2026'
 paperurl: 'https://openreview.net/forum?id=14i2wzPPfn'
-citation: '<b>Yuchen Yan</b>, Yongliang Shen, Yang Liu, Jin Jiang, Xin Xu, Mengdi Zhang, Jian Shao, Yueting Zhuang. (2026). &quot;MathFimer: Enhancing Mathematical Reasoning by Expanding Reasoning Steps through Fill-in-the-Middle Task.&quot; <i>ICLR 2026</i>.'
+tldr: 'Expands reasoning chains via a fill-in-the-middle task to strengthen mathematical reasoning.'
+authorship: first
 ---
 
 [OpenReview](https://openreview.net/forum?id=14i2wzPPfn)

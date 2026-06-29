@@ -84,10 +84,12 @@ author:
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
+  techreports:
+    title: 'Technical Reports'
   conferences:
     title: 'Conference &amp; Journal Publications'
   preprints:
-    title: 'Preprints &amp; Technical Reports'
+    title: 'Preprints'
   workshops:
     title: 'Workshop Papers'
 
