@@ -10,5 +10,3 @@ paperurl: 'https://openreview.net/forum?id=JfsjGmuFxz'
 tldr: 'A benchmark for evaluating reference-based reward systems that verify LLM answers.'
 authorship: first
 ---
-
-[OpenReview](https://openreview.net/forum?id=JfsjGmuFxz)

@@ -45,6 +45,11 @@ layout: default
       {% endunless %}
 
       <section class="page__content" itemprop="text">
+        {% if page.collection == 'publications' %}
+          {% if page.excerpt %}<p class="pub-detail-authors">{{ page.excerpt | markdownify | remove: "<p>" | remove: "</p>" }}</p>{% endif %}
+          {% if page.tldr %}<p class="pub-detail-tldr"><strong>TL;DR.</strong> {{ page.tldr }}</p>{% endif %}
+          {% if page.paperurl %}<p><a class="btn btn--primary" href="{{ page.paperurl }}">{% if page.paperurl contains 'openreview' %}View on OpenReview{% elsif page.paperurl contains 'arxiv' %}View on arXiv{% else %}View Paper{% endif %}</a></p>{% endif %}
+        {% endif %}
         {{ content }}
 
         {% if page.citation and page.paperurl and page.slidesurl and page.bibtexurl %}

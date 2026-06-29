@@ -10,5 +10,3 @@ paperurl: 'https://openreview.net/forum?id=WHiAkFjwya'
 tldr: 'Improves GUI grounding at test time via label-free region-consistency reinforcement learning.'
 authorship: cofirst
 ---
-
-[OpenReview](https://openreview.net/forum?id=WHiAkFjwya)

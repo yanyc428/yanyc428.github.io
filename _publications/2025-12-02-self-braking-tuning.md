@@ -10,5 +10,3 @@ paperurl: 'https://openreview.net/forum?id=u3a2AX0icx'
 tldr: 'Teaches reasoning models to stop overthinking by learning when to brake.'
 authorship: cofirst
 ---
-
-[OpenReview](https://openreview.net/forum?id=u3a2AX0icx)

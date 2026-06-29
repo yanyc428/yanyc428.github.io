@@ -8,7 +8,6 @@
 
 {% if post.collection == 'publications' %}
   {% comment %} ---- Custom, cleaner publication card ---- {% endcomment %}
-  {% if post.paperurl %}{% assign pub_link = post.paperurl %}{% else %}{% assign pub_link = post.url | prepend: base_path %}{% endif %}
   <div class="list__item">
     <article class="archive__item pub-card" itemscope itemtype="http://schema.org/CreativeWork">
       <div class="pub-meta">
@@ -16,7 +15,7 @@
         <span class="pub-year">{{ post.date | default: "1900-01-01" | date: "%Y" }}</span>
       </div>
       <h3 class="pub-title" itemprop="headline">
-        <a href="{{ pub_link }}">{{ title }}</a>
+        <a href="{{ post.url | prepend: base_path }}">{{ title }}</a>
       </h3>
       {% if post.excerpt %}
         <p class="pub-authors" itemprop="description">{{ post.excerpt | markdownify | remove: "<p>" | remove: "</p>" }}</p>

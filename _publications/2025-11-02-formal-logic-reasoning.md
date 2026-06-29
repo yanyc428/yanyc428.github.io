@@ -10,5 +10,3 @@ paperurl: 'https://openreview.net/forum?id=Tlp8ccu1rd'
 tldr: 'Investigates whether LLMs can perform complex logical reasoning expressed in formal language.'
 authorship: other
 ---
-
-[OpenReview](https://openreview.net/forum?id=Tlp8ccu1rd)

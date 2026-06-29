@@ -10,5 +10,3 @@ paperurl: 'https://openreview.net/forum?id=14i2wzPPfn'
 tldr: 'Expands reasoning chains via a fill-in-the-middle task to strengthen mathematical reasoning.'
 authorship: first
 ---
-
-[OpenReview](https://openreview.net/forum?id=14i2wzPPfn)

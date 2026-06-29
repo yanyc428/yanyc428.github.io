@@ -10,5 +10,3 @@ paperurl: 'https://openreview.net/forum?id=2ogTw5ue7v'
 tldr: 'Detects and bridges thought leaps in chains of thought to improve reasoning fine-tuning.'
 authorship: cofirst
 ---
-
-[OpenReview](https://openreview.net/forum?id=2ogTw5ue7v)

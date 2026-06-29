@@ -10,5 +10,3 @@ paperurl: 'https://openreview.net/forum?id=8PWIyOSSVP'
 tldr: 'Adaptively switches between chain-of-thought and tool-integrated reasoning based on problem difficulty.'
 authorship: other
 ---
-
-[OpenReview](https://openreview.net/forum?id=8PWIyOSSVP)

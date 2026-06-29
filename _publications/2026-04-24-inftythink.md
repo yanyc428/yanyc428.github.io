@@ -10,5 +10,3 @@ paperurl: 'https://openreview.net/forum?id=T1h5em349L'
 tldr: 'Breaks context-length limits by turning long reasoning into iterative, bounded-length thinking.'
 authorship: first
 ---
-
-[OpenReview](https://openreview.net/forum?id=T1h5em349L)

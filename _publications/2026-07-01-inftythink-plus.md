@@ -10,5 +10,3 @@ paperurl: 'https://openreview.net/forum?id=tyul8kXaJU'
 tldr: 'Scales infinite-horizon reasoning with reinforcement learning for more effective and efficient long thinking.'
 authorship: first
 ---
-
-[OpenReview](https://openreview.net/forum?id=tyul8kXaJU)

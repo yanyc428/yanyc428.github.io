@@ -10,5 +10,3 @@ paperurl: 'https://openreview.net/forum?id=Ga3AR4EF6R'
 tldr: 'Guides long-horizon language agents with milestone signals to make policy learning more stable.'
 authorship: other
 ---
-
-[OpenReview](https://openreview.net/forum?id=Ga3AR4EF6R)

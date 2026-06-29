@@ -10,5 +10,3 @@ paperurl: 'https://openreview.net/forum?id=EmLiyZGvrR'
 tldr: 'A comprehensive benchmark for undergraduate-level physics reasoning in LLMs.'
 authorship: other
 ---
-
-[OpenReview](https://openreview.net/forum?id=EmLiyZGvrR)
