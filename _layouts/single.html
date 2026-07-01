@@ -47,8 +47,23 @@ layout: default
       <section class="page__content" itemprop="text">
         {% if page.collection == 'publications' %}
           {% if page.excerpt %}<p class="pub-detail-authors">{{ page.excerpt | markdownify | remove: "<p>" | remove: "</p>" }}</p>{% endif %}
+          {% if page.keywords %}
+            <p class="pub-keywords">{% for kw in page.keywords %}<span class="pub-kw">{{ kw }}</span>{% endfor %}</p>
+          {% endif %}
           {% if page.tldr %}<p class="pub-detail-tldr"><strong>TL;DR.</strong> {{ page.tldr }}</p>{% endif %}
           {% if page.paperurl %}<p><a class="btn btn--primary" href="{{ page.paperurl }}">{% if page.paperurl contains 'openreview' %}View on OpenReview{% elsif page.paperurl contains 'arxiv' %}View on arXiv{% else %}View Paper{% endif %}</a></p>{% endif %}
+          {% if page.image %}
+            <figure class="pub-figure">
+              <img src="{{ page.image | prepend: base_path }}" alt="{{ page.title | escape }} figure" loading="lazy">
+              {% if page.image_caption %}<figcaption>{{ page.image_caption }}</figcaption>{% endif %}
+            </figure>
+          {% endif %}
+          {% if page.image2 %}
+            <figure class="pub-figure">
+              <img src="{{ page.image2 | prepend: base_path }}" alt="{{ page.title | escape }} figure" loading="lazy">
+              {% if page.image2_caption %}<figcaption>{{ page.image2_caption }}</figcaption>{% endif %}
+            </figure>
+          {% endif %}
         {% endif %}
         {{ content }}
 
