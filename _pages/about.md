@@ -23,6 +23,8 @@ You can find my work on [Google Scholar](https://scholar.google.com/citations?us
 
 ## News
 
+- **2026.08** &nbsp; *GSM8K-V* (co-first author) and *IterSynth* accepted to **EMNLP 2026** Main; *Code-A1* (co-first author) and *LAPO* to Findings; *EasySteer* to Demo.
+- **2026.07** &nbsp; *ViewSpatial-Bench* and *Learning from Reliable Negatives* accepted to **ECCV 2026**.
 - **2026.06** &nbsp; *InftyThink+* and *Milestone-Guided Policy Learning* accepted to **ICML 2026**.
 - **2026.04** &nbsp; Joined the **Tencent Hunyuan** VLM Post-Training Team as an intern.
 - **2026.01** &nbsp; *InftyThink*, *MathFimer*, *VerifyBench*, and *SpatialLadder* accepted to **ICLR 2026**.
