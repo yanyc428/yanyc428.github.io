@@ -9,6 +9,11 @@ venue: 'ICLR 2026'
 paperurl: 'https://openreview.net/forum?id=JfsjGmuFxz'
 tldr: 'A benchmark for evaluating reference-based reward systems that verify LLM answers.'
 authorship: first
+image: "/images/publications/verifybench.png"
+image_caption: "Overview of the VerifyBench construction process."
+codeurl: 'https://github.com/ZJU-REAL/VerifyBench'
+projecturl: 'https://zju-real.github.io/VerifyBench'
+dataurl: 'https://huggingface.co/datasets/ZJU-REAL/VerifyBench'
 keywords:
   - "Reference-based reward bench"
   - "Reward for reinforcement learning"

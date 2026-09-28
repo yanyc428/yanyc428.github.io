@@ -9,6 +9,10 @@ venue: 'ECCV 2026'
 paperurl: 'https://link.springer.com/chapter/10.1007/978-3-032-37098-3_6'
 tldr: 'A benchmark for camera- and human-perspective spatial localization in vision-language models.'
 authorship: other
+image: "/images/publications/viewspatial-bench.jpg"
+image_caption: "ViewSpatial-Bench construction pipeline."
+codeurl: 'https://github.com/ZJU-REAL/ViewSpatial-Bench'
+projecturl: 'https://zju-real.github.io/ViewSpatial-Page'
 keywords:
   - "Spatial Reasoning"
   - "VLM"

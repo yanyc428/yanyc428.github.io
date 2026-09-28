@@ -9,6 +9,10 @@ venue: 'NeurIPS 2025'
 paperurl: 'https://openreview.net/forum?id=2ogTw5ue7v'
 tldr: 'Detects and bridges thought leaps in chains of thought to improve reasoning fine-tuning.'
 authorship: cofirst
+image: "/images/publications/mind-the-gap.jpg"
+image_caption: "Overview of our approach: building training data and bridging thought leaps."
+codeurl: 'https://github.com/ZJU-REAL/Mind-the-Gap'
+projecturl: 'https://zju-real.github.io/CoT-Bridge'
 keywords:
   - "Large Reasoning Models"
   - "LLM Reasoning"

@@ -9,6 +9,9 @@ venue: 'EMNLP 2026 (Demo)'
 paperurl: 'https://arxiv.org/abs/2509.25175'
 tldr: 'A vLLM-based, extensible framework for LLM steering with 10.8-22.3x speedup over existing tools.'
 authorship: other
+image: "/images/publications/easysteer.png"
+image_caption: "Core components of the EasySteer framework."
+codeurl: 'https://github.com/ZJU-REAL/EasySteer'
 keywords:
   - "LLM Steering"
   - "Inference"

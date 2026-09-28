@@ -9,6 +9,8 @@ venue: 'ICLR 2026'
 paperurl: 'https://openreview.net/forum?id=14i2wzPPfn'
 tldr: 'Expands reasoning chains via a fill-in-the-middle task to strengthen mathematical reasoning.'
 authorship: first
+image: "/images/publications/mathfimer.jpg"
+image_caption: "Overview of MathFimer: building FIM training data and expanding reasoning steps."
 keywords:
   - "LLM Reasoning"
   - "Mathematical Reasoning"

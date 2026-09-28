@@ -9,6 +9,10 @@ venue: 'Under Review'
 paperurl: 'https://arxiv.org/abs/2604.08455'
 tldr: 'An online Android benchmark for mobile agents that must infer user preferences and decide when to act proactively.'
 authorship: other
+image: "/images/publications/knowu-bench.jpg"
+image_caption: "Overview of the KnowU-Bench framework."
+codeurl: 'https://github.com/ZJU-REAL/KnowU-Bench'
+projecturl: 'https://zju-real.github.io/KnowU-Bench'
 keywords:
   - "GUI Agent"
   - "Mobile Agent"

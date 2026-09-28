@@ -9,6 +9,10 @@ venue: 'NeurIPS 2025'
 paperurl: 'https://openreview.net/forum?id=u3a2AX0icx'
 tldr: 'Teaches reasoning models to stop overthinking by learning when to brake.'
 authorship: cofirst
+image: "/images/publications/self-braking-tuning.png"
+image_caption: "Overview of Self-Braking Tuning."
+codeurl: 'https://github.com/ZJU-REAL/Self-Braking-Tuning'
+projecturl: 'https://zju-real.github.io/SBT'
 keywords:
   - "Large Reasoning Models"
   - "Efficient Reasoning"

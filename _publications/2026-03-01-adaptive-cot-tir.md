@@ -9,6 +9,9 @@ venue: 'CPAL 2026 (Oral)'
 paperurl: 'https://openreview.net/forum?id=8PWIyOSSVP'
 tldr: 'Adaptively switches between chain-of-thought and tool-integrated reasoning based on problem difficulty.'
 authorship: other
+image: "/images/publications/adaptive-cot-tir.png"
+image_caption: "Overview of the TATA (Teaching LLMs According to Their Aptitude) framework."
+codeurl: 'https://github.com/XinXU-USTC/TATA'
 keywords:
   - "Large Language Models"
   - "math QA"

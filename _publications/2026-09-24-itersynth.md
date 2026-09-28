@@ -9,6 +9,9 @@ venue: 'EMNLP 2026'
 paperurl: 'https://arxiv.org/abs/2609.29444'
 tldr: 'Decouples deep-search agents into a Planner and a Synthesizer over an evolving summary state, trained with role-specific RL.'
 authorship: other
+image: "/images/publications/itersynth.png"
+image_caption: "Overview of the IterSynth pipeline."
+codeurl: 'https://github.com/Tencent/IterSynth'
 keywords:
   - "Deep Search Agent"
   - "Reinforcement Learning"

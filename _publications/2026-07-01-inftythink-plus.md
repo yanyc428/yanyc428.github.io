@@ -9,6 +9,11 @@ venue: 'ICML 2026'
 paperurl: 'https://openreview.net/forum?id=tyul8kXaJU'
 tldr: 'Scales infinite-horizon reasoning with reinforcement learning for more effective and efficient long thinking.'
 authorship: first
+image: "/images/publications/inftythink-plus.png"
+image_caption: "The InftyThink reasoning paradigm versus vanilla reasoning."
+codeurl: 'https://github.com/ZJU-REAL/InftyThink-Plus'
+projecturl: 'https://zju-real.github.io/InftyThink-Plus'
+modelurl: 'https://huggingface.co/collections/yanyc/inftythink'
 keywords:
   - "LLM Reasoning"
   - "Efficient Reasoning"

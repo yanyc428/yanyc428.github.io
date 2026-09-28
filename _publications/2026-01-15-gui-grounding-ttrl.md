@@ -9,6 +9,10 @@ venue: 'AAAI 2026'
 paperurl: 'https://openreview.net/forum?id=WHiAkFjwya'
 tldr: 'Improves GUI grounding at test time via label-free region-consistency reinforcement learning.'
 authorship: cofirst
+image: "/images/publications/gui-grounding-ttrl.png"
+image_caption: "Overview of GUI-RC and GUI-RCPO for test-time scaling in GUI grounding."
+codeurl: 'https://github.com/zju-real/gui-rcpo'
+projecturl: 'https://zju-real.github.io/gui-rcpo'
 keywords:
   - "GUI Agents"
   - "Test-Time RL"

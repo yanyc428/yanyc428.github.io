@@ -9,6 +9,9 @@ venue: 'Under Review'
 paperurl: 'https://arxiv.org/abs/2506.21285'
 tldr: 'Fine-tunes long-CoT models to iteratively critique and refine their own solutions.'
 authorship: other
+image: "/images/publications/double-checker.png"
+image_caption: "Overview of Double-Checker."
+codeurl: 'https://github.com/XinXU-USTC/DoubleChecker'
 keywords:
   - "Self-Critique"
   - "Long CoT"

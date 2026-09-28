@@ -9,6 +9,8 @@ venue: 'ECCV 2026'
 paperurl: 'https://link.springer.com/chapter/10.1007/978-3-032-37029-7_14'
 tldr: 'Label-free test-time adaptation for GUI grounding that learns from reliable negative samples anchored by coordinate-token confidence.'
 authorship: other
+image: "/images/publications/canl-gui-grounding.jpg"
+image_caption: "The CANL pipeline."
 keywords:
   - "GUI Agent"
   - "GUI Grounding"

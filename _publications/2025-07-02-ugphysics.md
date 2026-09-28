@@ -9,6 +9,9 @@ venue: 'ICML 2025'
 paperurl: 'https://openreview.net/forum?id=EmLiyZGvrR'
 tldr: 'A comprehensive benchmark for undergraduate-level physics reasoning in LLMs.'
 authorship: other
+image: "/images/publications/ugphysics.png"
+image_caption: "Overview of UGPhysics: physics domains and subjects, with an example problem."
+codeurl: 'https://github.com/YangLabHKUST/UGPhysics'
 keywords:
   - "Large Language Models"
   - "benchmark and dataset"
