@@ -28,3 +28,16 @@ markdown file under `_publications/`.
    and the abstract text.
 
 Filenames are up to you; only the path in the `image:` field has to match.
+
+## Link buttons
+
+Besides `paperurl`, a paper can link its code, project page, data, and model.
+Each one that is set shows up as a button on the detail page and as a link on
+the publications list:
+
+```yaml
+codeurl: 'https://github.com/ZJU-REAL/InftyThink'
+projecturl: 'https://zju-real.github.io/InftyThink'
+dataurl: 'https://huggingface.co/datasets/...'
+modelurl: 'https://huggingface.co/...'
+```

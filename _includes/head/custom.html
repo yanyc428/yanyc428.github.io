@@ -127,10 +127,28 @@
     margin: 0 0.35em 0.35em 0;
     white-space: nowrap;
   }
+  /* Link rows: publication list cards and detail-page buttons */
+  .pub-links { display: flex; flex-wrap: wrap; gap: 0.3em 1.1em; }
+  .pub-buttons { display: flex; flex-wrap: wrap; gap: 0.5em; }
+  .pub-buttons .btn { margin: 0; text-decoration: none; }
+  /* The theme's .btn forces white text and no border with !important. */
+  .pub-buttons .pub-btn-outline {
+    color: var(--global-text-color) !important;
+    border: 1px solid rgba(127, 127, 127, 0.45) !important;
+    background: transparent;
+  }
+  .pub-buttons .pub-btn-outline:hover {
+    color: var(--global-link-color) !important;
+    border-color: var(--global-link-color) !important;
+    background: transparent;
+  }
+  .pub-buttons .btn i { margin-right: 0.3em; }
+
   /* Figures on the publication detail page */
   .page__content .pub-figure { margin: 1.2em 0; text-align: center; }
   .page__content .pub-figure img {
     max-width: 100%;
+    background: #fff;
     border: 1px solid var(--global-border-color);
     border-radius: 6px;
   }

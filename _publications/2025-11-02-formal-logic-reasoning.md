@@ -9,6 +9,9 @@ venue: 'EMNLP 2025'
 paperurl: 'https://openreview.net/forum?id=Tlp8ccu1rd'
 tldr: 'Investigates whether LLMs can perform complex logical reasoning expressed in formal language.'
 authorship: other
+image: "/images/publications/formal-logic-reasoning.png"
+image_caption: "Evaluation framework: LLMs, logical reasoning task types, and trajectory formats."
+codeurl: 'https://github.com/jiangjin1999/FormalEval'
 keywords:
   - "LLM Reasoning"
   - "Logical Reasoning"

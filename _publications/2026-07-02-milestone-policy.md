@@ -9,6 +9,9 @@ venue: 'ICML 2026'
 paperurl: 'https://openreview.net/forum?id=Ga3AR4EF6R'
 tldr: 'Guides long-horizon language agents with milestone signals to make policy learning more stable.'
 authorship: other
+image: "/images/publications/milestone-policy.png"
+image_caption: "Overview of the BEACON framework."
+codeurl: 'https://github.com/ZJU-REAL/BEACON'
 keywords:
   - "Large Language Model Agents"
   - "Reinforcement Learning"

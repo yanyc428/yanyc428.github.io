@@ -23,8 +23,14 @@
       {% if post.tldr %}
         <p class="pub-tldr">{{ post.tldr }}</p>
       {% endif %}
-      {% if post.paperurl %}
-        <a class="pub-link" href="{{ post.paperurl }}">{% if post.paperurl contains "openreview" %}OpenReview{% elsif post.paperurl contains "arxiv" %}arXiv{% else %}Paper{% endif %} &rsaquo;</a>
+      {% if post.paperurl or post.codeurl or post.projecturl or post.dataurl or post.modelurl %}
+        <div class="pub-links">
+          {% if post.paperurl %}<a class="pub-link" href="{{ post.paperurl }}">{% if post.paperurl contains "openreview" %}OpenReview{% elsif post.paperurl contains "arxiv" %}arXiv{% else %}Paper{% endif %} &rsaquo;</a>{% endif %}
+          {% if post.codeurl %}<a class="pub-link" href="{{ post.codeurl }}">Code &rsaquo;</a>{% endif %}
+          {% if post.projecturl %}<a class="pub-link" href="{{ post.projecturl }}">Project &rsaquo;</a>{% endif %}
+          {% if post.dataurl %}<a class="pub-link" href="{{ post.dataurl }}">Data &rsaquo;</a>{% endif %}
+          {% if post.modelurl %}<a class="pub-link" href="{{ post.modelurl }}">Model &rsaquo;</a>{% endif %}
+        </div>
       {% endif %}
     </article>
   </div>

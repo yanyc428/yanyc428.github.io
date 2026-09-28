@@ -9,6 +9,10 @@ venue: 'ICLR 2026'
 paperurl: 'https://openreview.net/forum?id=KtrFXlvgrK'
 tldr: 'Progressive training that builds up spatial reasoning ability in vision-language models.'
 authorship: other
+image: "/images/publications/spatialladder.jpg"
+image_caption: "The three-stage progressive training framework of SpatialLadder."
+codeurl: 'https://github.com/ZJU-REAL/SpatialLadder'
+projecturl: 'https://zju-real.github.io/SpatialLadder'
 keywords:
   - "Vision-Language Models"
   - "Spatial Reasoning"

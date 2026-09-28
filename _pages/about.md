@@ -9,7 +9,7 @@ redirect_from:
 
 I am a Ph.D. student in **Artificial Intelligence** at **Zhejiang University**, where I am a member of [REAL Lab](https://zju-real.github.io), advised by Dr. Yongliang Shen and Dr. Jian Shao. I expect to graduate around 2027. Before that, I received my B.S. from Beijing Normal University.
 
-My research centers on **large language model (LLM) reasoning** and **AI agents**, with a focus on how to make reasoning models think more effectively and efficiently. My work spans long-horizon and infinite-horizon reasoning, reinforcement learning for reasoning, reward modeling and verification, and agents that act reliably in real environments. To date I have published 15 CCF-A papers, including 8 as first or co-first author.
+My research centers on **large language model (LLM) reasoning** and **AI agents**, with a focus on how to make reasoning models think more effectively and efficiently. My work spans long-horizon and infinite-horizon reasoning, reinforcement learning for reasoning, reward modeling and verification, and agents that act reliably in real environments. To date I have published 22 papers at top venues including NeurIPS, ICML, ICLR, ACL, EMNLP, CVPR, ECCV and AAAI, 9 of them as first or co-first author.
 
 Alongside my Ph.D., I have worked as an intern on foundation-model teams in industry, including Meituan (LongCat), Ant Group (Ling / Ring), and currently the Tencent Hunyuan VLM Post-Training Team, on large-scale pre-training, post-training, and reinforcement learning for reasoning models.
 
@@ -23,6 +23,8 @@ You can find my work on [Google Scholar](https://scholar.google.com/citations?us
 
 ## News
 
+- **2026.08** &nbsp; *GSM8K-V* (co-first author) and *IterSynth* accepted to **EMNLP 2026** Main; *Code-A1* (co-first author) and *LAPO* to Findings; *EasySteer* to Demo.
+- **2026.07** &nbsp; *ViewSpatial-Bench* and *Learning from Reliable Negatives* accepted to **ECCV 2026**.
 - **2026.06** &nbsp; *InftyThink+* and *Milestone-Guided Policy Learning* accepted to **ICML 2026**.
 - **2026.04** &nbsp; Joined the **Tencent Hunyuan** VLM Post-Training Team as an intern.
 - **2026.01** &nbsp; *InftyThink*, *MathFimer*, *VerifyBench*, and *SpatialLadder* accepted to **ICLR 2026**.

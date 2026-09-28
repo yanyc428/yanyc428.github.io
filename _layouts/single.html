@@ -51,7 +51,15 @@ layout: default
             <p class="pub-keywords">{% for kw in page.keywords %}<span class="pub-kw">{{ kw }}</span>{% endfor %}</p>
           {% endif %}
           {% if page.tldr %}<p class="pub-detail-tldr"><strong>TL;DR.</strong> {{ page.tldr }}</p>{% endif %}
-          {% if page.paperurl %}<p><a class="btn btn--primary" href="{{ page.paperurl }}">{% if page.paperurl contains 'openreview' %}View on OpenReview{% elsif page.paperurl contains 'arxiv' %}View on arXiv{% else %}View Paper{% endif %}</a></p>{% endif %}
+          {% if page.paperurl or page.codeurl or page.projecturl or page.dataurl or page.modelurl %}
+            <p class="pub-buttons">
+              {% if page.paperurl %}<a class="btn btn--primary" href="{{ page.paperurl }}"><i class="fas fa-file-alt" aria-hidden="true"></i> {% if page.paperurl contains 'openreview' %}OpenReview{% elsif page.paperurl contains 'arxiv' %}arXiv{% else %}Paper{% endif %}</a>{% endif %}
+              {% if page.codeurl %}<a class="btn pub-btn-outline" href="{{ page.codeurl }}"><i class="fab fa-github" aria-hidden="true"></i> Code</a>{% endif %}
+              {% if page.projecturl %}<a class="btn pub-btn-outline" href="{{ page.projecturl }}"><i class="fas fa-globe" aria-hidden="true"></i> Project Page</a>{% endif %}
+              {% if page.dataurl %}<a class="btn pub-btn-outline" href="{{ page.dataurl }}"><i class="fas fa-database" aria-hidden="true"></i> Data</a>{% endif %}
+              {% if page.modelurl %}<a class="btn pub-btn-outline" href="{{ page.modelurl }}"><i class="fas fa-cube" aria-hidden="true"></i> Model</a>{% endif %}
+            </p>
+          {% endif %}
           {% if page.image %}
             <figure class="pub-figure">
               <img src="{{ page.image | prepend: base_path }}" alt="{{ page.title | escape }} figure" loading="lazy">
