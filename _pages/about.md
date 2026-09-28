@@ -9,7 +9,7 @@ redirect_from:
 
 I am a Ph.D. student in **Artificial Intelligence** at **Zhejiang University**, where I am a member of [REAL Lab](https://zju-real.github.io), advised by Dr. Yongliang Shen and Dr. Jian Shao. I expect to graduate around 2027. Before that, I received my B.S. from Beijing Normal University.
 
-My research centers on **large language model (LLM) reasoning** and **AI agents**, with a focus on how to make reasoning models think more effectively and efficiently. My work spans long-horizon and infinite-horizon reasoning, reinforcement learning for reasoning, reward modeling and verification, and agents that act reliably in real environments. To date I have published 23 papers at top venues including NeurIPS, ICML, ICLR, ACL, EMNLP, CVPR, ECCV and AAAI, 9 of them as first or co-first author.
+My research centers on **large language model (LLM) reasoning** and **AI agents**, with a focus on how to make reasoning models think more effectively and efficiently. My work spans long-horizon and infinite-horizon reasoning, reinforcement learning for reasoning, reward modeling and verification, and agents that act reliably in real environments. To date I have published 22 papers at top venues including NeurIPS, ICML, ICLR, ACL, EMNLP, CVPR, ECCV and AAAI, 9 of them as first or co-first author.
 
 Alongside my Ph.D., I have worked as an intern on foundation-model teams in industry, including Meituan (LongCat), Ant Group (Ling / Ring), and currently the Tencent Hunyuan VLM Post-Training Team, on large-scale pre-training, post-training, and reinforcement learning for reasoning models.
 
