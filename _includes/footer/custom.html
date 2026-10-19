@@ -3,4 +3,23 @@
 <!-- Support for MathJax -->
 <script id="MathJax-script" defer src="https://cdn.jsdelivr.net/npm/mathjax@4.0.0/tex-mml-chtml.js"></script>
 
+<!-- Language toggle (the saved choice is applied early in head/custom.html) -->
+<script>
+  (function () {
+    var button = document.getElementById("lang-toggle");
+    if (!button) return;
+    button.addEventListener("click", function () {
+      var lang = document.documentElement.getAttribute("data-lang") === "zh" ? "en" : "zh";
+      document.documentElement.setAttribute("data-lang", lang);
+      document.documentElement.setAttribute("lang", lang === "zh" ? "zh-CN" : "en");
+      try { localStorage.setItem("lang", lang); } catch (e) {}
+      // Menu item widths change with the language, so let the greedy nav re-measure.
+      window.dispatchEvent(new Event("resize"));
+    });
+  })();
+</script>
+
+<!-- Site visit counter (busuanzi); it reveals #busuanzi_container_site_pv once counts load -->
+<script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
 <!-- end custom footer snippets -->

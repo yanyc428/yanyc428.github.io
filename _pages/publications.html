@@ -1,12 +1,13 @@
 ---
 layout: archive
 title: "Publications"
+title_zh: "论文"
 permalink: /publications/
 author_profile: true
 ---
 
 {% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
+  <div class="wordwrap"><span class="lang-en">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</span><span class="lang-zh">完整论文列表也可以在我的 <a href="{{site.author.googlescholar}}">Google Scholar 主页</a> 查看。</span></div>
 {% endif %}
 
 {% include base_path %}
@@ -16,7 +17,7 @@ author_profile: true
   {% for category in site.publication_category %}
     {% assign cat_posts = site.publications | where: "category", category[0] %}
     {% if cat_posts.size > 0 %}
-      <h2>{{ category[1].title }}</h2><hr />
+      {% assign cat_info = category[1] %}<h2>{% include t.html en=cat_info.title zh=cat_info.title_zh %}</h2><hr />
       {% comment %} Order within a category: first author, then co-first, then others; each newest-first {% endcomment %}
       {% assign role_order = "first,cofirst,other" | split: "," %}
       {% for role in role_order %}

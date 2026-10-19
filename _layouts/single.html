@@ -26,7 +26,7 @@ layout: default
     <div class="page__inner-wrap">
       {% unless page.header.overlay_color or page.header.overlay_image %}
         <header>
-          {% if page.title %}<h1 class="page__title" itemprop="headline">{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</h1>{% endif %}
+          {% if page.title %}{% assign title_en = page.title | markdownify | remove: "<p>" | remove: "</p>" %}<h1 class="page__title" itemprop="headline">{% include t.html en=title_en zh=page.title_zh %}</h1>{% endif %}
           {% if page.read_time %}
             <p class="page__meta"><i class="fa fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
           {% endif %}
@@ -37,7 +37,7 @@ layout: default
         {% if page.collection == 'teaching' %}
           <p> {{ page.type }}, <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif page.venue and page.date %}
-          <p>Published in <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
+          {% assign pub_year = page.date | default: "1900-01-01" | date: "%Y" %}<p><span class="lang-en">Published in <i>{% include venue.html venue=page.venue lang="en" %}</i>, {{ pub_year }}</span><span class="lang-zh">发表于 <i>{% include venue.html venue=page.venue lang="zh" %}</i>，{{ pub_year }}</span></p>
         {% elsif page.date %}
           <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
         {% endif %}    
@@ -53,11 +53,11 @@ layout: default
           {% if page.tldr %}<p class="pub-detail-tldr"><strong>TL;DR.</strong> {{ page.tldr }}</p>{% endif %}
           {% if page.paperurl or page.codeurl or page.projecturl or page.dataurl or page.modelurl %}
             <p class="pub-buttons">
-              {% if page.paperurl %}<a class="btn btn--primary" href="{{ page.paperurl }}"><i class="fas fa-file-alt" aria-hidden="true"></i> {% if page.paperurl contains 'openreview' %}OpenReview{% elsif page.paperurl contains 'arxiv' %}arXiv{% else %}Paper{% endif %}</a>{% endif %}
-              {% if page.codeurl %}<a class="btn pub-btn-outline" href="{{ page.codeurl }}"><i class="fab fa-github" aria-hidden="true"></i> Code</a>{% endif %}
-              {% if page.projecturl %}<a class="btn pub-btn-outline" href="{{ page.projecturl }}"><i class="fas fa-globe" aria-hidden="true"></i> Project Page</a>{% endif %}
-              {% if page.dataurl %}<a class="btn pub-btn-outline" href="{{ page.dataurl }}"><i class="fas fa-database" aria-hidden="true"></i> Data</a>{% endif %}
-              {% if page.modelurl %}<a class="btn pub-btn-outline" href="{{ page.modelurl }}"><i class="fas fa-cube" aria-hidden="true"></i> Model</a>{% endif %}
+              {% if page.paperurl %}<a class="btn btn--primary" href="{{ page.paperurl }}"><i class="fas fa-file-alt" aria-hidden="true"></i> {% if page.paperurl contains 'openreview' %}OpenReview{% elsif page.paperurl contains 'arxiv' %}arXiv{% else %}{% include t.html en="Paper" zh="论文" %}{% endif %}</a>{% endif %}
+              {% if page.codeurl %}<a class="btn pub-btn-outline" href="{{ page.codeurl }}"><i class="fab fa-github" aria-hidden="true"></i> {% include t.html en="Code" zh="代码" %}</a>{% endif %}
+              {% if page.projecturl %}<a class="btn pub-btn-outline" href="{{ page.projecturl }}"><i class="fas fa-globe" aria-hidden="true"></i> {% include t.html en="Project Page" zh="项目主页" %}</a>{% endif %}
+              {% if page.dataurl %}<a class="btn pub-btn-outline" href="{{ page.dataurl }}"><i class="fas fa-database" aria-hidden="true"></i> {% include t.html en="Data" zh="数据" %}</a>{% endif %}
+              {% if page.modelurl %}<a class="btn pub-btn-outline" href="{{ page.modelurl }}"><i class="fas fa-cube" aria-hidden="true"></i> {% include t.html en="Model" zh="模型" %}</a>{% endif %}
             </p>
           {% endif %}
           {% if page.image %}

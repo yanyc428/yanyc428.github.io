@@ -10,6 +10,7 @@
 locale                   : "en-US"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
 title                    : "Yuchen Yan"
+title_zh                 : "颜聿辰"
 title_separator          : "-"
 name                     : &name "Yuchen Yan"
 description              : &description "Yuchen Yan (颜聿辰), PhD student at Zhejiang University, working on LLM Reasoning and AI Agents."   # Update this with a general description of your site, this is the default if not overridden by a page
@@ -27,8 +28,11 @@ author:
   name             : "颜聿辰 Yuchen Yan"
   pronouns         : # example: "she/her"
   bio              : "PhD student in AI<br>LLM Reasoning &amp; AI Agents"
+  bio_zh           : "人工智能博士生<br>大模型推理与 AI 智能体"
   location         : "Beijing, China"
+  location_zh      : "中国北京"
   employer         : "Zhejiang University"
+  employer_zh      : "浙江大学"
   uri              : # URL
   email            : "yanyuchen@zju.edu.cn"
 
@@ -86,12 +90,16 @@ author:
 publication_category:
   techreports:
     title: 'Technical Reports'
+    title_zh: '技术报告'
   conferences:
     title: 'Conference &amp; Journal Publications'
+    title_zh: '会议与期刊论文'
   preprints:
     title: 'Preprints'
+    title_zh: '预印本'
   workshops:
     title: 'Workshop Papers'
+    title_zh: 'Workshop 论文'
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previews

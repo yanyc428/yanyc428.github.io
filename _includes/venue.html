@@ -1,0 +1,1 @@
+{%- if include.lang == "zh" -%}{%- case include.venue -%}{%- when "Under Review" -%}在投{%- when "Technical Report" -%}技术报告{%- else -%}{{ include.venue }}{%- endcase -%}{%- else -%}{{ include.venue }}{%- endif -%}

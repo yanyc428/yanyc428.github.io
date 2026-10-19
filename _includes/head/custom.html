@@ -2,6 +2,16 @@
 
 <!-- start custom head snippets -->
 
+<!-- Language: apply the saved choice before the page paints -->
+<script>
+  (function () {
+    var lang = "en";
+    try { lang = localStorage.getItem("lang") === "zh" ? "zh" : "en"; } catch (e) {}
+    document.documentElement.setAttribute("data-lang", lang);
+    document.documentElement.setAttribute("lang", lang === "zh" ? "zh-CN" : "en");
+  })();
+</script>
+
 <!-- Support for Academicons -->
 <link rel="preload" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
 <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css"></noscript>
@@ -157,6 +167,35 @@
     color: var(--global-text-color-light);
     margin-top: 0.5em;
   }
+  /* Bilingual content: only the active language is shown */
+  html[data-lang="zh"] .lang-en,
+  html:not([data-lang="zh"]) .lang-zh { display: none !important; }
+
+  /* Language and theme toggles at the right end of the header */
+  .masthead__menu { display: flex; align-items: center; }
+  .masthead__menu #site-nav { flex: 1 1 auto; min-width: 0; }
+  .masthead__actions { display: flex; align-items: center; gap: 0.25rem; flex: none; margin-left: 0.5rem; }
+  .masthead__action {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 2.25rem;
+    height: 2.25rem;
+    padding: 0 0.5rem;
+    border: 0;
+    border-radius: 6px;
+    background: transparent;
+    color: var(--global-masthead-link-color);
+    font-family: inherit;
+    font-size: 0.85em;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  .masthead__action:hover { color: var(--global-masthead-link-color-hover); background: rgba(127, 127, 127, 0.12); }
+
+  /* Visit counter in the footer */
+  .site-visits { display: block; margin-top: 0.3em; }
+  .site-visits span[id^="busuanzi_"] { font-weight: 600; }
 </style>
 
 <!-- end custom head snippets -->
