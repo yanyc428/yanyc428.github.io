@@ -15,7 +15,7 @@ redirect_from:
 Education
 ======
 * **Ph.D. in Artificial Intelligence**, Zhejiang University, Sep 2022 – present
-  * Member of [REAL Lab](https://zju-real.github.io), advised by Dr. Yongliang Shen and Dr. Jian Shao
+  * Member of [REAL Lab](https://zju-real.github.io), advised by Dr. Yongliang Shen
   * Coursework: Natural Language Processing, Knowledge Graphs, Knowledge Reasoning & Representation
 * **B.S. in Information Management and Information Systems**, Beijing Normal University, Sep 2018 – Jun 2022
   * Minor: **Data Science and Big Data Technology**, Beijing Normal University, 2020 – 2022
@@ -72,7 +72,7 @@ Skills
 教育背景
 ======
 * **浙江大学 · 人工智能 · 博士研究生**，2022.09 – 至今
-  * [REAL Lab](https://zju-real.github.io) 成员，导师为沈永亮老师和邵健老师
+  * [REAL Lab](https://zju-real.github.io) 成员，导师为沈永亮老师
   * 课程：自然语言处理、知识图谱、知识推理与表示
 * **北京师范大学 · 信息管理与信息系统 · 学士**，2018.09 – 2022.06
   * 辅修：**数据科学与大数据技术**，北京师范大学，2020 – 2022

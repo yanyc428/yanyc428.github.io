@@ -10,7 +10,7 @@ redirect_from:
 
 <div class="lang-en" markdown="1">
 
-I am a Ph.D. student in **Artificial Intelligence** at **Zhejiang University**, where I am a member of [REAL Lab](https://zju-real.github.io), advised by Dr. Yongliang Shen and Dr. Jian Shao. I expect to graduate around 2027. Before that, I received my B.S. from Beijing Normal University.
+I am a Ph.D. student in **Artificial Intelligence** at **Zhejiang University**, where I am a member of [REAL Lab](https://zju-real.github.io), advised by Dr. Yongliang Shen. I expect to graduate around 2027. Before that, I received my B.S. from Beijing Normal University.
 
 My research centers on **large language model (LLM) reasoning** and **AI agents**, with a focus on how to make reasoning models think more effectively and efficiently. My work spans long-horizon and infinite-horizon reasoning, reinforcement learning for reasoning, reward modeling and verification, and agents that act reliably in real environments. To date I have published 22 papers at top venues including NeurIPS, ICML, ICLR, ACL, EMNLP, CVPR, ECCV and AAAI, 9 of them as first or co-first author.
 
@@ -38,7 +38,7 @@ You can find my work on [Google Scholar](https://scholar.google.com/citations?us
 
 <div class="lang-zh" markdown="1">
 
-我是**浙江大学人工智能**专业的博士研究生，[REAL Lab](https://zju-real.github.io) 成员，导师为沈永亮老师和邵健老师，预计 2027 年前后毕业。本科毕业于北京师范大学。
+我是**浙江大学人工智能**专业的博士研究生，[REAL Lab](https://zju-real.github.io) 成员，导师为沈永亮老师，预计 2027 年前后毕业。本科毕业于北京师范大学。
 
 我的研究聚焦于**大模型推理**与 **AI 智能体**，关注如何让推理模型思考得更有效、更高效，具体包括长程与无限视野推理、面向推理的强化学习、奖励建模与验证，以及能在真实环境中可靠行动的智能体。目前已在 NeurIPS、ICML、ICLR、ACL、EMNLP、CVPR、ECCV、AAAI 等顶级会议发表论文 22 篇，其中一作/共同一作 9 篇。
 
