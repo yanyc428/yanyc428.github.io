@@ -61,9 +61,3 @@ Skills
 * **Reinforcement learning**: large-scale RL pipelines with veRL, from rollout and reward computation to policy updates; fast rollout and deployment with vLLM and SGLang
 * **Engineering**: Python (multiprocessing / multithreading, async, decorators), Git collaboration and branching, Linux and shell scripting, multi-node multi-GPU jobs on clusters and debugging distributed programs
 * **Frameworks**: designed and built evaluation frameworks (fast benchmark onboarding, distributed inference, automatic result aggregation) and data-synthesis frameworks (diverse query synthesis, controllable response generation, quality filtering)
-
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
