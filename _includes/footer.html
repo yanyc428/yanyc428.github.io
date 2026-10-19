@@ -22,8 +22,7 @@
 <div class="page__footer-copyright">
   &copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}, {{ site.data.ui-text[site.locale].powered_by | default: "Powered by" }} <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://github.com/academicpages/academicpages.github.io">AcademicPages</a>, a fork of <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.<br />
   {% include t.html en="Site last updated" zh="最近更新" %} {{ "now" | date: '%Y-%m-%d' }}, <a href="/sitemap/" style="text-transform: uppercase;">{% include t.html en="Sitemap" zh="站点地图" %}</a>
-  <span class="site-visits" id="busuanzi_container_site_pv" style="display: none;">
-    {% include t.html en="Total visits" zh="总访问量" %} <span id="busuanzi_value_site_pv"></span><span class="lang-zh"> 次</span>
-    &middot; {% include t.html en="Visitors" zh="访客数" %} <span id="busuanzi_value_site_uv"></span><span class="lang-zh"> 人</span>
+  <span class="site-visits" id="site-visits" style="display: none;">
+    {% include t.html en="Visitors" zh="访客数" %} <span id="site-visits-count"></span>
   </span>
 </div>

@@ -19,7 +19,23 @@
   })();
 </script>
 
-<!-- Site visit counter (busuanzi); it reveals #busuanzi_container_site_pv once counts load -->
-<script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+<!-- Visit analytics (GoatCounter): records this page view; dashboard at https://yanyc428.goatcounter.com -->
+<script data-goatcounter="https://yanyc428.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
+
+<!-- Site-wide visitor total in the footer; the line stays hidden unless the count loads -->
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    var box = document.getElementById("site-visits");
+    if (!box || !window.fetch) return;
+    fetch("https://yanyc428.goatcounter.com/counter/TOTAL.json")
+      .then(function (r) { return r.ok ? r.json() : null; })
+      .then(function (data) {
+        if (!data || !data.count) return;
+        document.getElementById("site-visits-count").textContent = data.count;
+        box.style.display = "";
+      })
+      .catch(function () {});
+  });
+</script>
 
 <!-- end custom footer snippets -->
