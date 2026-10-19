@@ -13,7 +13,7 @@
       document.documentElement.setAttribute("data-lang", lang);
       document.documentElement.setAttribute("lang", lang === "zh" ? "zh-CN" : "en");
       try { localStorage.setItem("lang", lang); } catch (e) {}
-      // Menu item widths change with the language, so let the greedy nav re-measure.
+      /* Menu item widths change with the language, so let the greedy nav re-measure. */
       window.dispatchEvent(new Event("resize"));
     });
   })();
